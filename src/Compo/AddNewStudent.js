@@ -15,7 +15,7 @@ function AddNewStudent() {
     const handleSubmit = (e) =>{
         e.preventDefault();
         dispatch(AddStudent({
-            Id:studentList.length,
+            id:studentList.length+1,
             Name,
             Age,
             Batch,
